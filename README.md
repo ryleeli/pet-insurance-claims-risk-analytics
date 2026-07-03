@@ -116,19 +116,19 @@ Final recommendations covering:
 
 ### Claim Severity Distribution
 
-![](images/claim_distribution.png)
+![](images/claim_severity_distribution.png)
 
 ---
 
 ### Coverage Level Comparison
 
-![](images/coverage_level_claims.png)
+![](images/coverage_anakysis.png)
 
 ---
 
 ### Top Feature Importance
 
-![](images/feature_importance.png)
+![](images/graduent_boosting_feature_importance.png)
 
 ---
 
