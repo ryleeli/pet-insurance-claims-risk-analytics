@@ -146,7 +146,7 @@ Final recommendations covering:
 
 ## Author
 
-**Rylee Li**
+**Yanjie Li**
 
 Master of Actuarial Studies  
 Australian National University
