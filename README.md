@@ -122,13 +122,13 @@ Final recommendations covering:
 
 ### Coverage Level Comparison
 
-![](images/coverage_anakysis.png)
+![](images/coverage_analysis.png)
 
 ---
 
 ### Top Feature Importance
 
-![](images/graduent_boosting_feature_importance.png)
+![](images/gradient_boosting_feature_importance.png)
 
 ---
 
