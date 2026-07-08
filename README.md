@@ -5,7 +5,6 @@
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-Machine%20Learning-orange?logo=scikit-learn)
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 </p>
@@ -30,7 +29,7 @@
 
 ## Project Overview
 
-This project demonstrates an end-to-end data analytics workflow using a real-world pet insurance claims dataset containing more than **188,000 insurance claims**.
+This project demonstrates an end-to-end insurance analytics workflow using a large synthetic pet insurance claims dataset designed for pricing and predictive modelling.
 
 The project combines:
 
@@ -41,6 +40,16 @@ The project combines:
 - Business Insights & Strategic Recommendations
 
 The objective is to identify the key drivers of claim severity and support pricing, underwriting and portfolio management decisions for pet insurance providers.
+
+---
+
+## Project Highlights
+
+- Analysed over **188,000** insurance claims.
+- Engineered insurance-specific pricing variables.
+- Built and compared **four** regression models.
+- Produced business recommendations for pricing and underwriting.
+- Published the complete project on GitHub.
 
 ---
 
@@ -71,7 +80,8 @@ pet-insurance-claims-risk-analytics/
 ├── reports/
 │   └── 05_business_insights.html
 │
-└── requirements.txt
+├── README.md
+└── LICENSE
 ```
 
 ---
@@ -182,6 +192,8 @@ Four regression models were evaluated using Mean Absolute Error (MAE), Root Mean
 
 Gradient Boosting achieved the best predictive performance across all evaluation metrics.
 
+These results demonstrate that ensemble learning methods provide modest improvements over traditional regression techniques for predicting insurance claim severity.
+
 
 ## Example Visualisations
 
@@ -260,14 +272,18 @@ Potential extensions include:
 Master of Actuarial Studies  
 Australian National University
 
-### Areas of Interest
+Interested in:
 
 - Data Analytics
 - Machine Learning
-- Insurance Analytics
-- Pricing & Risk Modelling
+- Insurance Pricing
+- Risk Analytics
 
 GitHub:
 https://github.com/ryleeli
 
-LinkedIn (coming soon)
+---
+
+## Acknowledgements
+
+This project was completed as part of my personal data analytics portfolio to demonstrate practical applications of machine learning and business analytics in insurance.
