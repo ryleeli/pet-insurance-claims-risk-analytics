@@ -1,6 +1,11 @@
 # 🐶 Pet Insurance Claims Risk Analytics
 
-End-to-end data analytics project exploring pet insurance claim severity using Python, machine learning and business analytics.
+> End-to-end insurance analytics project using Python and Machine Learning to predict pet insurance claim severity and support pricing and underwriting decisions.
+
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ---
 
@@ -20,12 +25,14 @@ The project follows a complete analytics workflow:
 
 ## Technologies
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
-- Jupyter Notebook
+| Category | Tools |
+|----------|------|
+| Programming | Python |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Matplotlib |
+| Machine Learning | Scikit-learn |
+| Development | Jupyter Notebook |
+| Version Control | GitHub |
 
 ---
 
@@ -112,6 +119,21 @@ Final recommendations covering:
 
 ---
 
+## Model Performance
+
+Four regression models were compared.
+
+| Model | MAE | RMSE | R² |
+|------|------:|------:|------:|
+| Linear Regression | 2757.5 | 4371.9 | 0.1309 |
+| Decision Tree | 2777.0 | 4403.5 | 0.1183 |
+| Random Forest | 2773.2 | 4396.6 | 0.1211 |
+| **Gradient Boosting** | **2747.9** | **4358.2** | **0.1364** |
+
+Gradient Boosting achieved the strongest predictive performance across all evaluation metrics.
+
+---
+
 ## Example Visualisations
 
 ### Claim Severity Distribution
@@ -126,9 +148,9 @@ Final recommendations covering:
 
 ---
 
-### Top Feature Importance
+### Breed × Coverage Risk Matrix
 
-![](images/gradient_boosting_feature_importance.png)
+![](images/risk_heatmap.png)
 
 ---
 
@@ -138,12 +160,11 @@ Final recommendations covering:
 
 ---
 
-### Breed × Coverage Risk Matrix
+### Top Feature Importance
 
-![](images/risk_heatmap.png)
+![](images/gradient_boosting_feature_importance.png)
 
 ---
-
 ## Author
 
 **Yanjie Li**
