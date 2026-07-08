@@ -60,8 +60,8 @@ The objective is to identify the key drivers of claim severity and support prici
 ```text
 pet-insurance-claims-risk-analytics/
 
-├── images/                  # Figures used in README
-├── notebooks/               # Jupyter notebooks
+├── images/                  
+├── notebooks/              
 │   ├── 01_dataset_exploration.ipynb
 │   ├── 02_pet_insurance_mapping.ipynb
 │   ├── 03_risk_segmentation_analysis.ipynb
